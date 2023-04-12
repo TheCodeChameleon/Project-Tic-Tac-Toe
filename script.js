@@ -29,6 +29,7 @@ const startGame = () => {
   isCircleTurn = false;
   setBoard();
   winMsg.classList.remove("show-msg");
+  changeColor();
 };
 
 const endGame = (isDraw) => {
@@ -104,11 +105,11 @@ const handleClick = (e) => {
     endGame(true);
   } else {
     swapTurns();
+    changeColor();
   }
 
   //Swap turns
   //Change background color
-  changeColor();
 };
 
 startGame();
