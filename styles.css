@@ -19,6 +19,8 @@ body {
 
 h1 {
   color: var(--font-color);
+  font-size: 3rem;
+  margin-top: 90px;
 }
 
 .blue {
@@ -31,7 +33,7 @@ h1 {
 
 .table {
   width: 100%;
-  height: 100%;
+  height: 50%;
   display: grid;
   justify-content: center;
   align-content: center;
@@ -176,4 +178,17 @@ h1 {
 
 .show-msg {
   display: flex !important;
+}
+
+.footer {
+  margin-top: 15px;
+  color: var(--font-color);
+}
+
+.footer a {
+  color: var(--font-color);
+  text-decoration: none;
+}
+.footer a:hover {
+  color: #36395a;
 }
