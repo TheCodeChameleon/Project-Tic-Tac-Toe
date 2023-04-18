@@ -107,9 +107,6 @@ const handleClick = (e) => {
     swapTurns();
     changeColor();
   }
-
-  //Swap turns
-  //Change background color
 };
 
 startGame();
